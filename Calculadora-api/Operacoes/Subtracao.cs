@@ -8,5 +8,10 @@ namespace Calculadora_api.Operacoes
 {
     internal class Subtracao
     {
+        
+        public static void Subtrair()
+        {
+            
+        }
     }
 }
