@@ -8,7 +8,6 @@ namespace Calculadora_api.Operacoes
 {
     public class Soma
     {
-        public string _Invalido = "Digite apenas números";
 
         public static double Entrada1 { get; set; }
 
@@ -16,9 +15,8 @@ namespace Calculadora_api.Operacoes
 
         public static double Resultado { get; set; }
 
-        public Soma(string _invalido, double entrada1, double entrada2, double resultado)
+        public Soma(double entrada1, double entrada2, double resultado)
         {
-            _Invalido = _invalido;
             Entrada1 = entrada1;
             Entrada2 = entrada2;
             Resultado = resultado;
