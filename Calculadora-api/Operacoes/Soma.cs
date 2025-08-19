@@ -27,6 +27,7 @@ namespace Calculadora_api.Operacoes
         public void Somar()
         {
             Resultado = Entrada1 + Entrada2;
+            Console.WriteLine($"Resultado: {Resultado}");
 
         }
     }
