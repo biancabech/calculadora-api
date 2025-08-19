@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculadora_api.Operacoes
 {
-    internal abstract class Soma
+    public class Soma
     {
         public string _Invalido = "Digite apenas números";
 
@@ -24,16 +24,9 @@ namespace Calculadora_api.Operacoes
             Resultado = resultado;
         }
 
-        public override void Somar()
+        public void Somar()
         {
-            if (Entrada1 != null && Entrada2 != null)
-            {
-                Resultado = Entrada1 + Entrada2;
-            }
-            else
-            {
-                Console.WriteLine(_Invalido);
-            }
+            Resultado = Entrada1 + Entrada2;
 
         }
     }
