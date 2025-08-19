@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Calculadora_api.Executar
 {
-    internal class Executar
+    public class Executar
     {
+        public void Calcular() {
+        };
 
     }
 }
